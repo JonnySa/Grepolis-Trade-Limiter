@@ -12,7 +12,16 @@
     'use strict';
 
     // ============================================================
-    // EINSTELLUNGEN
+    // EINSTELLUNGEN:
+// TradeLimiter.disable()
+// TradeLimiter.enable()
+//TradeLimiter.setCount(2)
+//TradeLimiter.status()
+//TradeLimiter.debugOn()
+//TradeLimiter.debugOff()
+
+
+
     // ============================================================
 
     var ACTIVE_WINDOW_COUNT = 3;

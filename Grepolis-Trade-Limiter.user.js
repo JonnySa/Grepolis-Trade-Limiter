@@ -13,18 +13,20 @@
 
     // ============================================================
     // EINSTELLUNGEN:
+    // ============================================================
+
+    var ACTIVE_WINDOW_COUNT = 3;
+    var LIMITER_ENABLED = true;
+    var DEBUG_ENABLED = false;
+    
+    // ============================================================
+    // Konsolen Commands:
     // TradeLimiter.disable()
     // TradeLimiter.enable()
     // TradeLimiter.setCount(2)
     // TradeLimiter.status()
     // TradeLimiter.debugOn()
     // TradeLimiter.debugOff()
-    // ============================================================
-
-    var ACTIVE_WINDOW_COUNT = 3;
-    var LIMITER_ENABLED = true;
-    var DEBUG_ENABLED = false;
-
     // ============================================================
     // INTERNER ZUSTAND
     // ============================================================
